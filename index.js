@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         popupAuthor.textContent = `Tác giả: ${author}`;
         popupPageNumber.textContent = `Số trang: ${pageNumber}`;
         popupPrice.textContent = `Giá bán: ${price} VND`;
-        popupImage.style.backgroundImage = `url('/image/${linkImage}.jpg')`;
+        popupImage.style.backgroundImage = `url('https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/${linkImage}.jpg')`;
         
         popupOverlay.style.display = 'block';
     }
