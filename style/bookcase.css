@@ -1,0 +1,470 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    height: 160px;
+    padding-left: 24px;
+    background-color: #fff5e7;
+    border-bottom: 1px solid #ccc;
+} 
+
+.header .header-content-left {
+    height: 100%;
+    width: 80%;
+    position: relative;
+    padding-top: 8px;
+}
+
+.title {
+    display: flex;
+}
+
+.logo {
+    background-image: url("/image/logo.png");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.sub-logo {
+    margin-left: 10px;
+    background-image: url("/image/sub-logo.png");
+    width: 180px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sub-logo:hover {
+    cursor: pointer;
+}
+
+.motivation {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("/image/motivation.jpg");
+    width: 220px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+}
+
+.navigation  button {
+    padding: 10px 12px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+    background-color: #E3E3E3;
+    color: #555;
+}
+
+.active {
+    background-color: blueviolet !important;
+    color: white !important;
+}
+
+.navigation  button:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+}
+
+.header-content-right {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 12px;
+    padding-right: 10px;
+    right: 10px;
+    width: 100%;
+    height: 30%;
+    font-size: 24px;
+    flex-direction: row-reverse;
+}
+
+.google {
+    height: 30px;
+    width: 30px;
+}
+
+.google:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.instagram {
+    height: 30px;
+    width: 30px;
+}
+
+.instagram:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.facebook {
+    height: 30px;
+    width: 30px;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.login {
+    margin-right: 10px;
+}
+
+.login:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.user-infor {
+    font-size: 14px;
+    margin-right: 6px;
+}
+
+.search {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-search {
+    border: 1px solid rgb(147, 147, 221);
+}
+
+.search .input-search input {
+    height: 32px;
+    padding: 0 6px;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+}
+
+.search .input-search .search-icon {
+    margin-right: 8px;
+}
+
+.search .input-search .search-icon:hover {
+    cursor: pointer;
+}
+
+.sub-navigation {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-navigation .advanced-search {
+    width: 60%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.sub-navigation .advanced-search:hover {
+    cursor: pointer;
+    color: #6b5a5a;
+}
+
+.sub-navigation .change-language {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    margin-left: 20px;
+    gap: 8px;
+}
+
+.sub-navigation .change-language:hover {
+    cursor: pointer;
+}
+
+.change-language .text-language:hover {
+    opacity: 0.6;
+}
+
+.change-language .flag-language {
+    background-image: url("/image/vietnamese-flag.jpg");
+    width: 28px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.body {
+    height: 300px;
+}
+
+.body .book-section {
+    height: auto;
+    background-color: #fff5e7;
+    padding: 20px;
+}
+
+.book-section .book-section-title {
+    margin-bottom: 16px;
+}
+
+.bst-text {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #00aeef;
+    text-align: center;
+}
+
+.bst-icon {
+    background-image: url("/image/open-book.svg");
+    height: 24px;
+    width: 100%;
+    display: flex;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.book-section-content {
+    display: flex;
+    gap: 32px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-section-content .bsc-book:hover {
+    cursor: pointer;
+}
+
+.bsc-book {
+    height: 350px;
+    width: 234px;
+    display: flex;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bsc-book1 {
+    background-image: url("/image/book1.jpg");
+}
+
+.bsc-book2 {
+    background-image: url("/image/book2.jpg");
+}
+
+.bsc-book3 {
+    background-image: url("/image/book3.jpg");
+}
+
+.bsc-book4 {
+    background-image: url("/image/book4.jpg");
+}
+
+.bsc-book5 {
+    background-image: url("/image/book5.jpg");
+}
+
+.bsc-book6 {
+    background-image: url("/image/book6.jpg");
+}
+
+.bsc-book7 {
+    background-image: url("/image/book7.jpg");
+}
+
+.bsc-book8 {
+    background-image: url("/image/book8.jpg");
+}
+
+.bsc-book9 {
+    background-image: url("/image/book9.jpg");
+}
+
+.bsc-book10 {
+    background-image: url("/image/book10.jpg");
+}
+
+.bsc-book11 {
+    background-image: url("/image/book11.jpg");
+}
+
+.bsc-book12 {
+    background-image: url("/image/book12.jpg");
+}
+
+.bsc-book13 {
+    background-image: url("/image/book13.jpg");
+}
+
+.bsc-book14 {
+    background-image: url("/image/book14.jpg");
+}
+
+.bsc-book15 {
+    background-image: url("/image/book15.jpg");
+}
+
+/* Pop up */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-container {
+    display: flex;
+    padding: 20px 10px;
+}
+
+.popup-image {
+    border: 1px solid #ccc;
+}
+
+.popup-content {
+    border-left: 1px solid #22d4e4;
+    padding-left: 20px;
+    margin-left: 20px;
+    min-width: 720px;
+}
+
+.popup-content {
+
+}
+
+.book-infor #bookName {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.purchase-infor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.purchase-infor .pi-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(32, 146, 203);
+    margin-bottom: 14px;
+}
+
+.purchase-infor label {
+    font-size: 14px;
+}
+
+.purchase-infor input {
+    font-size: 14px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 240px;
+    height: 24px;
+    text-align: center;
+}
+
+.purchase-infor .purchase-input {
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchase-infor .btn-confirm {
+    margin-top: 16px;
+}
+
+.popup-content #bookName:hover {
+    cursor: pointer;
+    color: #00A5FF;
+}
+
+.popup-content p {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+}
+
+.popup #emailInput {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.popup button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#bookName {
+    font-size: 20px;
+    text-transform: uppercase;
+}
