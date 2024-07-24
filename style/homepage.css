@@ -30,7 +30,7 @@ h1 {
 }
 
 .logo {
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/logo.png");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/logo.png");
     width: 100px;
     height: 100px;
     background-size: contain;
@@ -44,7 +44,7 @@ h1 {
 
 .sub-logo {
     margin-left: 10px;
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/sub-logo.png");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/sub-logo.png");
     width: 180px;
     height: 120px;
     background-size: contain;
@@ -59,7 +59,7 @@ h1 {
 .motivation {
     margin-left: auto;
     margin-right: auto;
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/motivation.jpg");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/motivation.jpg");
     width: 220px;
     height: 100px;
     background-size: contain;
@@ -220,7 +220,7 @@ h1 {
 }
 
 .change-language .flag-language {
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/vietnamese-flag.jpg");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/vietnamese-flag.jpg");
     width: 28px;
     height: 20px;
     background-size: contain;
@@ -233,7 +233,7 @@ h1 {
 }
 
 .body .slide-book {
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/slide-book.jpg");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/slide-book.jpg");
     height: 300px;
     width: 100%;
     display: flex;
@@ -260,7 +260,7 @@ h1 {
 }
 
 .bst-icon {
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/open-book.svg");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/open-book.svg");
     height: 24px;
     width: 100%;
     display: flex;
@@ -307,7 +307,7 @@ h1 {
 }
 
 .bsc-book1 {
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/book1.jpg");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/book1.jpg");
     height: 350px;
     width: 234px;
     display: flex;
@@ -317,7 +317,7 @@ h1 {
 }
 
 .bsc-book2 {
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/book2.jpg");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/book2.jpg");
     height: 350px;
     width: 234px;
     display: flex;
@@ -327,7 +327,7 @@ h1 {
 }
 
 .bsc-book3 {
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/book3.jpg");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/book3.jpg");
     height: 350px;
     width: 234px;
     display: flex;
@@ -337,7 +337,7 @@ h1 {
 }
 
 .bsc-book4 {
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/book4.jpg");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/book4.jpg");
     height: 350px;
     width: 234px;
     display: flex;
@@ -347,7 +347,7 @@ h1 {
 }
 
 .bsc-book5 {
-    background-image: url("https://github.com/vtrnguyen/hosting-image-file/blob/main/system-analysis-design/book5.jpg");
+    background-image: url("https://raw.githubusercontent.com/vtrnguyen/hosting-image-file/main/system-analysis-design/book5.jpg");
     height: 360px;
     width: 240px;
     display: flex;
