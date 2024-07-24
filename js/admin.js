@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   btnLogOut.addEventListener("click", () => {
     window.location.href =
-      "https://vtrnguyen.github.io/publishing-house/source/login.html";
+      "https://vtrnguyen.github.io/publishing-house-projects/source/login.html";
   });
 });
